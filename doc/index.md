@@ -36,13 +36,11 @@ You can install the Firebase Cordova plugin using the following command:
 
 ## Getting started
 
-1. Create Firebase instance
-
+### Create Firebase instance
 
     var fb = new Firebase("FIREBASE_URL");
 
-
-2. Save Data
+### Save Data
 
 Firebase stores data as standard JSON. You can either set a single object in the following way:
 
@@ -53,7 +51,7 @@ Or you can multiple messages via push operation:
     fb.push({ name : "Telerik", message: "Hello World" });
 
 
-3. Listen to Event changes
+### Listen to Event changes
 
 Firebase responds immediately to data changes as they occur.
 
