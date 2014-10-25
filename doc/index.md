@@ -38,7 +38,6 @@ You can install the Firebase Cordova plugin using the following command:
 
 1. Create Firebase instance.
 
-    // Use YOUR Firebase URL (not the one below)
     var fb = new Firebase("https://<your-firebase>.firebaseio.com");
 
 2. Save Data
