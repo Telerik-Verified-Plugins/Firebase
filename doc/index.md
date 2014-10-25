@@ -51,7 +51,7 @@ Or you can multiple messages via push operation:
     fb.push({ name : "Telerik", message: "Hello World" });
 
 
-### Listen to Event changes
+### Listen to Data Changes
 
 Firebase responds immediately to data changes as they occur.
 
