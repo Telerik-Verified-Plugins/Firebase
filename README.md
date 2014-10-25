@@ -17,6 +17,6 @@
          under the License.
 -->
 
-# com.aylien.text
+# com.firebase.sdk
 
 Plugin documentation: [doc/index.md](doc/index.md)

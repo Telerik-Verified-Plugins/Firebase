@@ -41,7 +41,6 @@ You can install the Firebase Cordova plugin using the following command:
     //Use YOUR Firebase URL (not the one below)
     var fb = new Firebase("https://<your-firebase>.firebaseio.com");
 
-
 2. Save Data
 
 Firebase stores data as standard JSON. You can either set a single object in the following way:
