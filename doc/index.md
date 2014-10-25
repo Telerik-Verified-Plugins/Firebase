@@ -19,9 +19,9 @@
 
 # com.firebase.sdk
 
-Firbase provies powerful API to store and sync data in realtime. When data changes, apps built with Firebase update instantly across every device.
+Firbase provides powerful API to store and sync data in realtime. When data changes, apps built with Firebase update instantly across every device.
 
-`Firebase` object available in window scope and it is available after the device `deviceready` event.
+`Firebase` object is available in window scope after the device `deviceready` event.
 
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
@@ -42,25 +42,25 @@ You can install the Firebase Cordova plugin using the following command:
 
 ### Save Data
 
-Firebase stores data as standard JSON. You can either set a single object in the following way:
+Firebase stores data as standard JSON. You can either save a single object in the following way:
 
     fb.set({ name : "Telerik", message: "Hello World" });
 
-Or you can multiple messages via push operation:
+Or you can do multiple via push operation for a given node:
 
     fb.push({ name : "Telerik", message: "Hello World" });
 
 
 ### Listen to Data Changes
 
-Firebase responds immediately to data changes as they occur.
+Firebase responds immediately to any data changes as they occur.
 
     fb.on("value", function(data) {
       var name = data.val() ? data.val().name : "";
       alert("My name is " + name);
     });
 
-In case of push messages, it will look like:
+In case of push operation, it will look like:
 
     fb.on("child_added", function(snapshot){
        var data = snapshot.val();
