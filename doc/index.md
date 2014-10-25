@@ -38,7 +38,7 @@ You can install the Firebase Cordova plugin using the following command:
 
 1. Create Firebase instance.
 
-    //Use YOUR Firebase URL (not the one below)
+    // Use YOUR Firebase URL (not the one below)
     var fb = new Firebase("https://<your-firebase>.firebaseio.com");
 
 2. Save Data
@@ -62,7 +62,7 @@ Firebase responds immediately to data changes as they occur.
 
 In case of push messages, it will look like:
 
-    app.fb.on("child_added", function(snapshot){
+    fb.on("child_added", function(snapshot){
        var data = snapshot.val();
        alert(data.name + "said: " + data.message);
     });
