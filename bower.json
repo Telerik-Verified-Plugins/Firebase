@@ -15,5 +15,8 @@
   ],
   "dependencies": {
     "firebase": "~1.1.2"
+  },
+  "resolutions": {
+    "firebase": "~2.3.1"
   }
 }
