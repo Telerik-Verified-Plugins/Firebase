@@ -19,7 +19,7 @@
 
 # com.firebase.sdk
 
-Firbase provides powerful API to store and sync data in realtime. When data changes, apps built with Firebase update instantly across every device.
+Firebase provides powerful API to store and sync data in realtime. When data changes, apps built with Firebase update instantly across every device.
 
 `Firebase` object is available in window scope after the device `deviceready` event.
 
@@ -75,4 +75,4 @@ In case of push operation, it will look like:
 
 ## Resources
 
-For more information, please refer to the [Firbase Getting Started](https://www.firebase.com/how-it-works.html).
+For more information, please refer to the [Firebase Getting Started](https://www.firebase.com/how-it-works.html).
